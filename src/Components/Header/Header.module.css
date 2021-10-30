@@ -1,0 +1,37 @@
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px;
+    border: 1px solid gray;
+    border-right: none;
+    border-left: none;
+}
+.header nav {
+    padding: 30px;
+}
+.header nav ul a {
+    color: #666;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    transition: .3s;
+}
+.header nav ul a:hover, .logo a:hover {
+    color: #A2D2FF;
+}
+.searchBtn {
+    width: 35px;
+    cursor: pointer;
+}
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+.logo a {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Festive', cursive;
+    transition: .3s;
+}

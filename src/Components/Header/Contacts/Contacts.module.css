@@ -1,0 +1,40 @@
+.contacts {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.title {
+    margin: 30px 0;
+}
+.title h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+.name, .email, .message, .submit {
+    margin: 80px 0;
+}
+label {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+    color: #666;
+    display: block;
+    margin: 30px 0;
+}
+.submit input {
+    float: left;
+    padding: 20px 15px;
+    background: #A2D2FF;
+}
+input {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    padding: 10px 22px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #e5e5e5;
+}
